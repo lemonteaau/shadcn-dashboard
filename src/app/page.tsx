@@ -1,13 +1,12 @@
+import Logo from "@/components/logo";
 import Sidebar from "@/components/sidebar";
 
 export default function Home() {
   return (
-    <main className="grid grid-cols-5">
-      <Sidebar className="col-span-1" />
+    <main className="grid h-screen grid-cols-5">
+      <Sidebar className="col-span-1 h-full" />
       <div className="col-span-4">
-        <div>
-          <h1>Dashboard page</h1>
-        </div>
+        <h1>Dashboard page</h1>
       </div>
     </main>
   );
