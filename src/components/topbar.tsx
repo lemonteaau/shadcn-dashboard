@@ -11,7 +11,7 @@ import {
 
 import { cn } from "@/lib/utils";
 
-export function AvatarDemo() {
+function AvatarDemo() {
   return (
     <Avatar>
       <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
@@ -20,7 +20,7 @@ export function AvatarDemo() {
   );
 }
 
-export function PopoverDemo() {
+function PopoverDemo() {
   return (
     <Popover>
       <PopoverTrigger asChild>
